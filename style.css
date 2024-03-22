@@ -1,0 +1,59 @@
+*{
+   padding: 0;margin: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+   height: 100%;
+   width: 100%;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.input{
+    display: flex;
+   
+    width: 100px;
+}
+.website{
+    padding: 10px;
+}
+.show{
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+.password{
+    padding: 10px;
+   
+}.username{
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.center{
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    background-color: bisque;
+    padding: 10px;
+}
+h2{
+   font-family: cursive;
+   padding: 10px;
+}
